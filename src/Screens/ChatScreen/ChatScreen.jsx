@@ -44,12 +44,19 @@ const ChatScreen = () => {
     return (
         <div className="chat-container">
             <div className="chat-header">
-                <div className="avatar-container">
-                    <img src={contact.avatar} alt={contact.name} className="avatar" />
+                <div className="chat-header-left">
+                    <div className="avatar-container">
+                        <img src={contact.avatar} alt={contact.name} className="avatar" />
+                    </div>
+                    <div className="contact-info">
+                        <h2>{contact.name}</h2>
+                        <span className="contact-status">últ. vez hoy a la(s) {contact.messages[9].hora}</span>
+                    </div>
                 </div>
-                <div className="contact-info">
-                    <h2>{contact.name}</h2>
-                    <span className="contact-status">últ. vez hoy a la(s) {contact.messages[9].hora}</span>
+                <div className="chat-header-right">
+                    <i class="bi bi-camera-video"></i>
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-three-dots-vertical"></i>
                 </div>
             </div>
             

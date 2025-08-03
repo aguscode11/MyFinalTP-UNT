@@ -44,11 +44,16 @@
     border-top-left-radius: 0;
 }
 
+.message-container:hover .delete-button {
+    display: block;
+}
+
 .delete-button {
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
-    background: #dc3545;
+    background: #1b5e37;
     color: white;
     border: none;
     border-radius: 3px;

@@ -16,11 +16,17 @@
 .my-message {
     justify-content: flex-end;
     margin-left: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .other-message {
     justify-content: flex-start;
     margin-right: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .empty-messages {
@@ -30,5 +36,5 @@
     height: 100%;
     color: #888;
     font-style: italic;
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/407/713/desktop-wallpaper-in-celebration-of-whatsapps-dark-mode-whatsapp-aesthetic.jpg);
+    background-image: transparent;
 }
