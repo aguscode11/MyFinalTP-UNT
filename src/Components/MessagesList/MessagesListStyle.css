@@ -1,0 +1,33 @@
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.message-wrapper {
+    max-width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.my-message {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.other-message {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.empty-messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #888;
+    font-style: italic;
+}

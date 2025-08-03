@@ -1,0 +1,58 @@
+.message-container {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.message-text {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.message-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.message-time {
+    color: #a7a8a8;
+    font-weight: 400;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.message-status {
+    color: #53bdeb;
+    font-size: 12px;
+}
+
+/* Estilo para mis mensajes (derecha) */
+.my-message {
+    background-color: #005c4b;
+    border-top-right-radius: 0;
+}
+
+/* Estilo para mensajes del operador (izquierda) */
+.other-message {
+    background-color: #242626;
+    border-top-left-radius: 0;
+}
+
+.delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 10px;
+    cursor: pointer;
+}

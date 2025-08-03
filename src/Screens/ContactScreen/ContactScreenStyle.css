@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #242626;
+    height: 100vh;
+}
+
+.leftside{
+    display: flex;
+    width: 60px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #a6a6a6;
+    font-size: 20px; /* tamaño de iconos */
+}
+
+
+.up-icons{
+    padding: 20px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.down-icons{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+i:hover {
+    cursor: pointer;
+    transition: font-size 0.5s, color 0.5s;
+    font-size: 24px;
+    color: #fafafa;
+}
+
+.contacts-container{
+    display: flex;
+    width: 100%;
+}
+
+.search{
+    background-color: #242626;
+    color: #a7a8a8;
+    height: 40px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+}
+
+.search-input{
+    background-color: #242626;
+    color: #a7a8a8;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    overflow: visible;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 30px 0px 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: #161717;
+    gap: 10px;
+    width: 100%;
+}
+/* das */

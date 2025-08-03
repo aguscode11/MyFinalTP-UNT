@@ -1,0 +1,35 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.contacts-panel {
+    width: 30%;
+    min-width: 300px;
+    border-right: 1px solid #eaeaea;
+    overflow-y: auto;
+    background-color: #161717;
+}
+
+.chat-panel {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.empty-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #888;
+    background-color: #242626;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: inherit;
+}
