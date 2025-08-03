@@ -4,13 +4,17 @@
     height: 100vh;
     background-image: url(https://e1.pxfuel.com/desktop-wallpaper/407/713/desktop-wallpaper-in-celebration-of-whatsapps-dark-mode-whatsapp-aesthetic.jpg);
     color: white;
-    padding: 20px;
 }
 
 .chat-header {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    flex-direction: row;
     padding: 15px;
     border-bottom: 1px solid #3d3f3f;
     margin-bottom: 20px;
+    background-color: #161717;
 }
 
 .delete-all-messages-button {
@@ -26,4 +30,17 @@
 
 .delete-all-messages-button:hover {
     background-color: #c82333;
+}
+
+.contact-status{
+    color: #a7a8a8;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
 }

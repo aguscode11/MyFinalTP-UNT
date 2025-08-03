@@ -25,12 +25,20 @@ const ContactScreen = () => {
             </div>
             <div class = "contacts-container">
                 <div class = "contacts">
-                <h1>QueOndaWeb</h1>
-                <div class ="search">
-                    <i class="bi bi-search"></i>
-                    <input type="text" placeholder='Buscar un chat o iniciar uno nuevo' id='message' name='message' required class= "search-input"/>
-                </div>
-                <ContactList contacts={contactsState} />
+                    <div class = "header">
+                        <div>
+                            <h1>QueOndaWeb</h1>
+                        </div>
+                        <div class = "icons">
+                            <i class="bi bi-chat-quote"></i>
+                            <i class="bi bi-list"></i>
+                        </div>
+                    </div>
+                    <div class ="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder='Buscar un chat o iniciar uno nuevo' id='message' name='message' required class= "search-input" autocomplete="off"/>
+                    </div>
+                    <ContactList contacts={contactsState} />
                 </div>
             </div>
         </div>

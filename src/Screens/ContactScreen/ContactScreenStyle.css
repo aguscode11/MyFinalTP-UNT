@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: row;
     background-color: #242626;
-    height: 100vh;
 }
 
 .leftside{
@@ -16,6 +15,8 @@
     justify-content: space-between;
     color: #a6a6a6;
     font-size: 20px; /* tamaño de iconos */
+    position: sticky;
+    top: 0;
 }
 
 
@@ -52,7 +53,7 @@ i:hover {
     background-color: #242626;
     color: #a7a8a8;
     height: 40px;
-    width: 430px;
+    width: 90%;
     font-weight: 400;
     font-size: 14px;
     padding: 10px;
@@ -66,11 +67,13 @@ i:hover {
 .search-input{
     background-color: #242626;
     color: #a7a8a8;
+    outline: none; /* eliminar borde blanco */
     font-weight: 400;
     font-size: 14px;
     border-radius: 10px;
     border: none;
-    overflow: visible;
+    width: 100%;
+    padding: 10px;
 }
 
 h1{
@@ -87,4 +90,31 @@ h1{
     gap: 10px;
     width: 100%;
 }
-/* das */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #161717;
+    color: #a7a8a8;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #3d3f3f;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (max-width: 1280px) {
+
+    .leftside{
+        display: none;
+    }
+}
+

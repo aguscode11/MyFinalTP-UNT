@@ -8,7 +8,7 @@
 .contacts-panel {
     width: 30%;
     min-width: 300px;
-    border-right: 1px solid #eaeaea;
+    border-right: 1px solid #343636;
     overflow-y: auto;
     background-color: #161717;
 }
@@ -32,4 +32,14 @@
 .contact-link {
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 768px) {
+
+    .contacts-panel{
+        display: none;
+    }
+    .chat-panel{
+        width: 100%;
+    }
 }

@@ -14,8 +14,14 @@ const NewMessageForm = ({addNewMessage}) => {
     return (
         <form onSubmit={handleSubmitSendMessageForm}>
             <div class = "new-message-container">
-                {/* <label htmlFor="message">Escribe un mensaje:</label> */}
-                <input type="text" placeholder='Escribe un mensaje...' id='message' name='message' required class = "new-message" />
+                <div class = "new-message-input">
+                    <div class = "new-message-icons">
+                        <i class="bi bi-plus-lg"></i>
+                        <i class="bi bi-sticky"></i>
+                    </div>
+                    {/* <label htmlFor="message">Escribe un mensaje:</label> */}
+                    <input type="text" placeholder='Escribe un mensaje...' id='message' name='message' required class = "new-message" autocomplete="off" />
+                </div>
             </div>
         </form>
     )
